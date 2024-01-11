@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<VBox fx:id="mainbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" style="-fx-background-image: url('car.png');-fx-background-repeat: stretch;-fx-background-position: center center;" minWidth="-Infinity" prefHeight="600" prefWidth="600" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GuanliyuanMainController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="管理员管理">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#openGuanliyuanManageUI" text="打开" />
+            </items>
+          </Menu>			
+          <Menu mnemonicParsing="false" text="车次管理">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#openCheciManageUI" text="打开" />
+            </items>
+          </Menu>			
+          <Menu mnemonicParsing="false" text="售票管理">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#openShoupiaoManageUI" text="打开" />
+            </items>
+          </Menu>			
+          <Menu mnemonicParsing="false" text="操作">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#exit" text="退出" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>
